@@ -156,7 +156,7 @@ header a {
   display: block;
   width: 100%;
   padding: 1rem;
-  margin: 0.5rem;
+  margin: 1rem;
   border-radius: 5px;
 }
 
@@ -168,13 +168,14 @@ header a {
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
-  margin: 0.5rem;
+  margin: 1rem;
   border-radius: 5px;
 }
 
 @media (min-width: 768px) {
   .job-search {
     margin: 2rem 3rem;
+    padding: 7rem;
   }
   .job-search h2 {
     font-size: 2rem;

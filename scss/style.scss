@@ -118,6 +118,7 @@ header {
   align-items: center;
   color: $color-dark;
   margin: $page-margin-mobile;
+
   h2 {
     margin: 1rem 0;
     font-size: 1.5rem;
@@ -126,7 +127,7 @@ header {
     display: block;
     width: 100%;
     padding: 1rem;
-    margin: 0.5rem;
+    margin: 1rem;
     border-radius: 5px;
   }
   .search-btn {
@@ -137,11 +138,12 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    margin: 0.5rem;
+    margin: 1rem;
     border-radius: 5px;
   }
   @include tablet {
     margin: $page-margin-tablet;
+    padding: 7rem;
     h2 {
       font-size: 2rem;
     }
