@@ -56,7 +56,10 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #e6efed;
+  -webkit-box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+          box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
 header a {
@@ -68,7 +71,7 @@ header a {
 
 @media (min-width: 768px) {
   header {
-    padding: 2rem 3rem;
+    padding: 1rem 3rem;
   }
 }
 
@@ -76,7 +79,7 @@ header a {
   min-height: 100vh;
   position: relative;
   color: #2a2f2e;
-  margin: 1rem;
+  margin: 0.5rem 1rem;
 }
 
 .landing .manifesto {
@@ -112,7 +115,7 @@ header a {
 
 @media (min-width: 768px) {
   .landing {
-    margin: 2rem 3rem;
+    margin: 1rem 3rem;
   }
   .landing .manifesto {
     top: 60%;
@@ -146,7 +149,7 @@ header a {
       -ms-flex-align: center;
           align-items: center;
   color: #2a2f2e;
-  margin: 1rem;
+  margin: 0.5rem 1rem;
 }
 
 .job-search h2 {
@@ -176,7 +179,7 @@ header a {
 
 @media (min-width: 768px) {
   .job-search {
-    margin: 2rem 3rem;
+    margin: 1rem 3rem;
     padding: 7rem;
   }
   .job-search h2 {
